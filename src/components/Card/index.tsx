@@ -28,7 +28,7 @@ export const Card = ({
         <S.Image src={imagem} alt={"Carro"} />
         <S.ContainerSubtitle>
           <S.Subtitle>{modelo}</S.Subtitle>
-          <S.Subtitle>{valorDiaria}</S.Subtitle>
+          <S.Subtitle>R$ {valorDiaria}</S.Subtitle>
         </S.ContainerSubtitle>
         <S.Description>{descricao}</S.Description>
       </S.Container>
