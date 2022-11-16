@@ -1,0 +1,39 @@
+*,
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.margin-top-2 {
+  margin-top: .5rem;
+}
+
+.margin-top-4 {
+  margin-top: 1rem;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  cursor: pointer;
+
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+}
