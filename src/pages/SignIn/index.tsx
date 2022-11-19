@@ -44,7 +44,7 @@ export const SignIn = () => {
         </div>
 
         <div>
-          <Link to="/cadastrar">Cadastre-se</Link>
+          <Link to="">Cadastre-se</Link>
 
           <button type="submit">Entrar</button>
         </div>
