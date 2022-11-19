@@ -1,9 +1,11 @@
 # rent-a-ride-web
 
-Para rodar o projeto utilizar
+Para executar o projeto, utilizar os seguintes comandos no terminal:
 
-- npm i 
+- npm i
 - npm run prod
-- logar com usuario: 
-- usuario@rentaride.com.br
-- senha: teste123
+
+Logar com os seguintes dados: 
+
+- E-mail: jose.ferreira@rent-a-ride.com
+- Senha: teste123
